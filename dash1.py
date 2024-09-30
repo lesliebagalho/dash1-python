@@ -4,4 +4,6 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 df = pd.read_csv("supermarket_sales.csv", sep=";", decimal=",")
-df["Date"] = pd.to_datetime(df["Date"])
+# df["Date"] = pd.to_datetime(df["Date"])
+
+print("ola")
